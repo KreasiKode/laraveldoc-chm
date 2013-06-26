@@ -1,0 +1,57 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=laravel-docs.chm
+Contents file=Table of Contents.hhc
+Default topic=introduction.html
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x409 English (United States)
+Title=Laravel 4 Documentation (by MasNug -- https://github.com/masnug)
+
+
+[FILES]
+validation.html
+artisan.html
+cache.html
+commands.html
+configuration.html
+contributing.html
+controllers.html
+database.html
+eloquent.html
+errors.html
+events.html
+facades.html
+helpers.html
+html.html
+installation.html
+introduction.html
+ioc.html
+lifecycle.html
+localization.html
+mail.html
+migrations.html
+packages.html
+pagination.html
+queries.html
+queues.html
+quick.html
+redis.html
+requests.html
+responses.html
+routing.html
+schema.html
+security.html
+session.html
+templates.html
+testing.html
+css/ubuntu-font.css
+fonts/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff
+fonts/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff
+fonts/_xyN3apAT_yRRDeqB3sPRg.woff
+img/note.png
+img/bullet.png
+
+[INFOTYPES]
+

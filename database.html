@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+            <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Basic Database Usage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ubuntu-font.css">
+    <script src="vendor/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="vendor/google-code-prettify/prettify.js"></script>
+    </head><body><section class="docs-content"><div class="container">
+            <article class="docs-body"><h1>Basic Database Usage</h1>
+
+<p><a name="configuration"></a></p>
+
+<h2>Configuration</h2>
+
+<p>Laravel makes connecting with databases and running queries extremely simple. The database configuration file is <code>app/config/database.php</code>. In this file you may define all of your database connections, as well as specify which connection should be used by default. Examples for all of the supported database systems are provided in this file.</p>
+
+<p>Currently Laravel supports four database systems: MySQL, Postgres, SQLite, and SQL Server.</p>
+
+<p><a name="running-queries"></a></p>
+
+<h2>Running Queries</h2>
+
+<p>Once you have configured your database connection, you may run queries using the <code>DB</code> class.</p>
+
+<p><strong>Running A Select Query</strong></p>
+
+<pre class="prettyprint"><code>$results = DB::select('select * from users where id = ?', array(1));
+</code></pre>
+
+<p>The <code>select</code> method will always return an <code>array</code> of results.</p>
+
+<p><strong>Running An Insert Statement</strong></p>
+
+<pre class="prettyprint"><code>DB::insert('insert into users (id, name) values (?, ?)', array(1, 'Dayle'));
+</code></pre>
+
+<p><strong>Running An Update Statement</strong></p>
+
+<pre class="prettyprint"><code>DB::update('update users set votes = 100 where name = ?', array('John'));
+</code></pre>
+
+<p><strong>Running A Delete Statement</strong></p>
+
+<pre class="prettyprint"><code>DB::delete('delete from users');
+</code></pre>
+
+<blockquote>
+  <p><strong>Note:</strong> The <code>update</code> and <code>delete</code> statements return the number of rows affected by the operation.</p>
+</blockquote>
+
+<p><strong>Running A General Statement</strong></p>
+
+<pre class="prettyprint"><code>DB::statement('drop table users');
+</code></pre>
+
+<p>You may listen for query events using the <code>DB::listen</code> method:</p>
+
+<p><strong>Listening For Query Events</strong></p>
+
+<pre class="prettyprint"><code>DB::listen(function($sql, $bindings, $time)
+{
+    //
+});
+</code></pre>
+
+<p><a name="database-transactions"></a></p>
+
+<h2>Database Transactions</h2>
+
+<p>To run a set of operations within a database transaction, you may use the <code>transaction</code> method:</p>
+
+<pre class="prettyprint"><code>DB::transaction(function()
+{
+    DB::table('users')-&gt;update(array('votes' =&gt; 1));
+
+    DB::table('posts')-&gt;delete();
+});
+</code></pre>
+
+<p><a name="accessing-connections"></a></p>
+
+<h2>Accessing Connections</h2>
+
+<p>When using multiple connections, you may access them via the <code>DB::connection</code> method:</p>
+
+<pre class="prettyprint"><code>$users = DB::connection('foo')-&gt;select(...);
+</code></pre>
+
+<p>You may also access the raw, underlying PDO instance:</p>
+
+<pre class="prettyprint"><code>$pdo = DB::connection()-&gt;getPdo();
+</code></pre>
+
+<p>Sometimes you may need to reconnect to a given database:</p>
+
+<pre class="prettyprint"><code>DB::reconnect('foo');
+</code></pre>
+
+<p><a name="query-logging"></a></p>
+
+<h2>Query Logging</h2>
+
+<p>By default, Laravel keeps a log in memory of all queries that have been run for the current request. However, in some cases, such as when inserting a large number of rows, this can cause the application to use excess memory. To disable the log, you may use the <code>disableQueryLog</code> method:</p>
+
+<pre class="prettyprint"><code>DB::connection()-&gt;disableQueryLog();
+</code></pre>
+            </article><div class="clearfix"></div>
+        </div>
+    </section>
+<script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="vendor/google-code-prettify/run_prettify.js"></script>
+    </body></html>
