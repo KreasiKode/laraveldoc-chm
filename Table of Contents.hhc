@@ -15,7 +15,30 @@
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Introduction">
 			<param name="Local" value="introduction.html">
+			<param name="ImageNumber" value="11">
 			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Laravel Philosophy">
+				<param name="Local" value="introduction.html#laravel-philosophy">
+				<param name="ImageNumber" value="35">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Learning Laravel">
+				<param name="Local" value="introduction.html#learning-laravel">
+				<param name="ImageNumber" value="35">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Development Team">
+				<param name="Local" value="introduction.html#development-team">
+				<param name="ImageNumber" value="35">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Framework Sponsors">
+				<param name="Local" value="introduction.html#framework-sponsors">
+				<param name="ImageNumber" value="35">
+				</OBJECT>
+		</UL>
 		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Quickstart">
 			<param name="Local" value="quick.html">
