@@ -38,9 +38,10 @@ session.html
 templates.html
 testing.html
 css\ubuntu-font.css
-fonts\0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff
-fonts\_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff
+fonts\_tMhxyW6i8lbI7YsUdFlGA.eot
 fonts\_xyN3apAT_yRRDeqB3sPRg.woff
+img\note.png
+img\bullet.png
 css\style.css
 vendor\modernizr-2.6.2.min.js
 vendor\google-code-prettify\prettify.js
@@ -55,5 +56,119 @@ Compile time: 0 minutes, 1 second
 0	Graphics
 
 
-Created z:\wamp\www\laraveldoc_crawler\docs\laravel-docs.chm, 312,616 bytes
-Compression decreased file by 270,877 bytes.
+Created z:\wamp\www\laraveldoc_crawler\docs\laravel-docs.chm, 276,184 bytes
+Compression decreased file by 262,085 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling z:\wamp\www\laraveldoc_crawler\docs\laravel-docs.chm
+
+validation.html
+artisan.html
+cache.html
+commands.html
+configuration.html
+contributing.html
+controllers.html
+database.html
+eloquent.html
+errors.html
+events.html
+facades.html
+helpers.html
+html.html
+installation.html
+introduction.html
+ioc.html
+lifecycle.html
+localization.html
+mail.html
+migrations.html
+packages.html
+pagination.html
+queries.html
+queues.html
+quick.html
+redis.html
+requests.html
+responses.html
+routing.html
+schema.html
+security.html
+session.html
+templates.html
+testing.html
+css\ubuntu-font.css
+fonts\_tMhxyW6i8lbI7YsUdFlGA.eot
+fonts\_xyN3apAT_yRRDeqB3sPRg.woff
+img\note.png
+img\bullet.png
+css\style.css
+vendor\modernizr-2.6.2.min.js
+vendor\google-code-prettify\prettify.js
+js\jquery.min.js
+js\plugins.js
+vendor\google-code-prettify\run_prettify.js
+HHC5013: Error: URL reference in the TOC cannot be resolved: "intoduction.html#laravel-philosophy".
+
+
+The following files were not compiled:
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling z:\wamp\www\laraveldoc_crawler\docs\laravel-docs.chm
+
+validation.html
+artisan.html
+cache.html
+commands.html
+configuration.html
+contributing.html
+controllers.html
+database.html
+eloquent.html
+errors.html
+events.html
+facades.html
+helpers.html
+html.html
+installation.html
+introduction.html
+ioc.html
+lifecycle.html
+localization.html
+mail.html
+migrations.html
+packages.html
+pagination.html
+queries.html
+queues.html
+quick.html
+redis.html
+requests.html
+responses.html
+routing.html
+schema.html
+security.html
+session.html
+templates.html
+testing.html
+css\ubuntu-font.css
+fonts\_tMhxyW6i8lbI7YsUdFlGA.eot
+fonts\_xyN3apAT_yRRDeqB3sPRg.woff
+img\note.png
+img\bullet.png
+css\style.css
+vendor\modernizr-2.6.2.min.js
+vendor\google-code-prettify\prettify.js
+js\jquery.min.js
+js\plugins.js
+vendor\google-code-prettify\run_prettify.js
+
+Compile time: 0 minutes, 1 second
+36	Topics
+36	Local links
+28	Internet links
+0	Graphics
+
+
+Created z:\wamp\www\laraveldoc_crawler\docs\laravel-docs.chm, 276,154 bytes
+Compression decreased file by 262,351 bytes.
