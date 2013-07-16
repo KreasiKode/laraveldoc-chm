@@ -7,7 +7,7 @@ Default topic=introduction.html
 Display compile progress=Yes
 Full-text search=Yes
 Language=0x409 English (United States)
-Title=Laravel 4 Documentation (by MasNug -- https://github.com/masnug)
+Title=Laravel 4 Documentation (fork @ https://github.com/KreasiKode/laraveldoc-chm)
 
 
 [FILES]
@@ -46,11 +46,11 @@ security.html
 session.html
 templates.html
 testing.html
-css/ubuntu-font.css
-fonts/_tMhxyW6i8lbI7YsUdFlGA.eot
-fonts/_xyN3apAT_yRRDeqB3sPRg.woff
-img/note.png
-img/bullet.png
+css\ubuntu-font.css
+fonts\_tMhxyW6i8lbI7YsUdFlGA.eot
+fonts\_xyN3apAT_yRRDeqB3sPRg.woff
+img\note.png
+img\bullet.png
 
 [INFOTYPES]
 

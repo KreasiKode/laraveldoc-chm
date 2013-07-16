@@ -12,78 +12,401 @@
 		<param name="Name" value="Preface">
 		</OBJECT>
 	<UL>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Introduction">
-			<param name="Local" value="introduction.html">
-			<param name="ImageNumber" value="11">
-			</OBJECT>
-		<UL>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Laravel Philosophy">
-				<param name="Local" value="introduction.html#laravel-philosophy">
-				<param name="ImageNumber" value="35">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Learning Laravel">
-				<param name="Local" value="introduction.html#learning-laravel">
-				<param name="ImageNumber" value="35">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Development Team">
-				<param name="Local" value="introduction.html#development-team">
-				<param name="ImageNumber" value="35">
-				</OBJECT>
-			<LI> <OBJECT type="text/sitemap">
-				<param name="Name" value="Framework Sponsors">
-				<param name="Local" value="introduction.html#framework-sponsors">
-				<param name="ImageNumber" value="35">
-				</OBJECT>
-		</UL>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Quickstart">
-			<param name="Local" value="quick.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Contributing">
-			<param name="Local" value="contributing.html">
-			</OBJECT>
+	    <LI> <OBJECT type="text/sitemap">
+	        <param name="Name" value="Introduction">
+	        <param name="Local" value="introduction.html">
+	        <param name="ImageNumber" value="11">
+	        </OBJECT>
+	    <UL>
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Laravel Philosophy">
+	            <param name="Local" value="introduction.html#laravel-philosophy">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Learning Laravel">
+	            <param name="Local" value="introduction.html#learning-laravel">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Development Team">
+	            <param name="Local" value="introduction.html#development-team">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Framework Sponsors">
+	            <param name="Local" value="introduction.html#framework-sponsors">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+	    </UL>
+	    <LI> <OBJECT type="text/sitemap">
+	        <param name="Name" value="Laravel Quickstart">
+	        <param name="Local" value="quick.html">
+	        <param name="ImageNumber" value="11">
+	        </OBJECT>
+	    <UL>
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Installation">
+	            <param name="Local" value="quick.html#installation">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Routing">
+	            <param name="Local" value="quick.html#routing">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Creating A View">
+	            <param name="Local" value="quick.html#creating-a-view">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Creating A Migration">
+	            <param name="Local" value="quick.html#creating-a-migration">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Eloquent ORM">
+	            <param name="Local" value="quick.html#eloquent-orm">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Displaying Data">
+	            <param name="Local" value="quick.html#displaying-data">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+	    </UL>
+	   <LI> <OBJECT type="text/sitemap">
+	        <param name="Name" value="Contributing To Laravel">
+	        <param name="Local" value="contributing.html">
+	        <param name="ImageNumber" value="11">
+	        </OBJECT>
+	    <UL>
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Introduction">
+	            <param name="Local" value="contributing.html#introduction">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Pull Requests">
+	            <param name="Local" value="contributing.html#pull-requests">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+
+	        <LI> <OBJECT type="text/sitemap">
+	            <param name="Name" value="Coding Guidelines">
+	            <param name="Local" value="contributing.html#coding-guidelines">
+	            <param name="ImageNumber" value="35">
+	            </OBJECT>
+	    </UL>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Getting Started">
 		</OBJECT>
 	<UL>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Installation">
-			<param name="Local" value="installation.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Configuration">
-			<param name="Local" value="configuration.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Request Lifecycle">
-			<param name="Local" value="lifecycle.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Routing">
-			<param name="Local" value="routing.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Requests &amp; Input">
-			<param name="Local" value="requests.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Views &amp; Responses">
-			<param name="Local" value="responses.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Controllers">
-			<param name="Local" value="controllers.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Errors &amp; Logging">
-			<param name="Local" value="errors.html">
-			</OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Installation">
+            <param name="Local" value="installation.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Install Composer">
+                <param name="Local" value="installation.html#install-composer">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Install Laravel">
+                <param name="Local" value="installation.html#install-laravel">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Server Requirements">
+                <param name="Local" value="installation.html#server-requirements">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Configuration">
+                <param name="Local" value="installation.html#configuration">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Pretty URLs">
+                <param name="Local" value="installation.html#pretty-urls">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Configuration">
+            <param name="Local" value="configuration.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Introduction">
+                <param name="Local" value="configuration.html#introduction">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Environment Configuration">
+                <param name="Local" value="configuration.html#environment-configuration">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Maintenance Mode">
+                <param name="Local" value="configuration.html#maintenance-mode">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Request Lifecycle">
+            <param name="Local" value="lifecycle.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Overview">
+                <param name="Local" value="lifecycle.html#overview">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Start Files">
+                <param name="Local" value="lifecycle.html#start-files">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Application Events">
+                <param name="Local" value="lifecycle.html#application-events">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Routing">
+            <param name="Local" value="routing.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Basic Routing">
+                <param name="Local" value="routing.html#basic-routing">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Route Parameters">
+                <param name="Local" value="routing.html#route-parameters">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Route Filters">
+                <param name="Local" value="routing.html#route-filters">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Named Routes">
+                <param name="Local" value="routing.html#named-routes">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Route Groups">
+                <param name="Local" value="routing.html#route-groups">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Sub-Domain Routing">
+                <param name="Local" value="routing.html#sub-domain-routing">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Route Prefixing">
+                <param name="Local" value="routing.html#route-prefixing">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Route Model Binding">
+                <param name="Local" value="routing.html#route-model-binding">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Throwing 404 Errors">
+                <param name="Local" value="routing.html#throwing-404-errors">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Routing To Controllers">
+                <param name="Local" value="routing.html#routing-to-controllers">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Requests &amp; Input">
+            <param name="Local" value="requests.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Basic Input">
+                <param name="Local" value="requests.html#basic-input">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Cookies">
+                <param name="Local" value="requests.html#cookies">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Old Input">
+                <param name="Local" value="requests.html#old-input">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Files">
+                <param name="Local" value="requests.html#files">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Request Information">
+                <param name="Local" value="requests.html#request-information">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Views &amp; Responses">
+            <param name="Local" value="responses.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Basic Responses">
+                <param name="Local" value="responses.html#basic-responses">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Redirects">
+                <param name="Local" value="responses.html#redirects">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Views">
+                <param name="Local" value="responses.html#views">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="View Composers">
+                <param name="Local" value="responses.html#view-composers">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Special Responses">
+                <param name="Local" value="responses.html#special-responses">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Controllers">
+            <param name="Local" value="controllers.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Basic Controllers">
+                <param name="Local" value="controllers.html#basic-controllers">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Controller Filters">
+                <param name="Local" value="controllers.html#controller-filters">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="RESTful Controllers">
+                <param name="Local" value="controllers.html#restful-controllers">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Resource Controllers">
+                <param name="Local" value="controllers.html#resource-controllers">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Handling Missing Methods">
+                <param name="Local" value="controllers.html#handling-missing-methods">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Errors &amp; Logging">
+            <param name="Local" value="errors.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Error Detail">
+                <param name="Local" value="errors.html#error-detail">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Handling Errors">
+                <param name="Local" value="errors.html#handling-errors">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="HTTP Exceptions">
+                <param name="Local" value="errors.html#http-exceptions">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Handling 404 Errors">
+                <param name="Local" value="errors.html#handling-404-errors">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Logging">
+                <param name="Local" value="errors.html#logging">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Learning More">
@@ -158,30 +481,388 @@
 		<param name="Name" value="Database">
 		</OBJECT>
 	<UL>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Basic Usage">
-			<param name="Local" value="database.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Query Builder">
-			<param name="Local" value="queries.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Eloquent ORM">
-			<param name="Local" value="eloquent.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Schema Builder">
-			<param name="Local" value="schema.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Migrations &amp; Seeding">
-			<param name="Local" value="migrations.html">
-			</OBJECT>
-		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Redis">
-			<param name="Local" value="redis.html">
-			</OBJECT>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Basic Database Usage">
+            <param name="Local" value="database.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Configuration">
+                <param name="Local" value="database.html#configuration">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Running Queries">
+                <param name="Local" value="database.html#running-queries">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Database Transactions">
+                <param name="Local" value="database.html#database-transactions">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Accessing Connections">
+                <param name="Local" value="database.html#accessing-connections">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Query Logging">
+                <param name="Local" value="database.html#query-logging">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Query Builder">
+            <param name="Local" value="queries.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Introduction">
+                <param name="Local" value="queries.html#introduction">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Selects">
+                <param name="Local" value="queries.html#selects">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Joins">
+                <param name="Local" value="queries.html#joins">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Advanced Wheres">
+                <param name="Local" value="queries.html#advanced-wheres">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Aggregates">
+                <param name="Local" value="queries.html#aggregates">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Raw Expressions">
+                <param name="Local" value="queries.html#raw-expressions">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Inserts">
+                <param name="Local" value="queries.html#inserts">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Updates">
+                <param name="Local" value="queries.html#updates">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Deletes">
+                <param name="Local" value="queries.html#deletes">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Unions">
+                <param name="Local" value="queries.html#unions">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Caching Queries">
+                <param name="Local" value="queries.html#caching-queries">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Eloquent ORM">
+            <param name="Local" value="eloquent.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Introduction">
+                <param name="Local" value="eloquent.html#introduction">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Basic Usage">
+                <param name="Local" value="eloquent.html#basic-usage">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Mass Assignment">
+                <param name="Local" value="eloquent.html#mass-assignment">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Insert, Update, Delete">
+                <param name="Local" value="eloquent.html#insert-update-delete">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Soft Deleting">
+                <param name="Local" value="eloquent.html#soft-deleting">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Timestamps">
+                <param name="Local" value="eloquent.html#timestamps">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Query Scopes">
+                <param name="Local" value="eloquent.html#query-scopes">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Relationships">
+                <param name="Local" value="eloquent.html#relationships">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+            <UL>
+                <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="One To One">
+                    <param name="Local" value="eloquent.html#one-to-one">
+                    <param name="ImageNumber" value="35">
+                    </OBJECT>
+                <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="One To Many">
+                    <param name="Local" value="eloquent.html#one-to-many">
+                    <param name="ImageNumber" value="35">
+                    </OBJECT>
+                <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Many To Many">
+                    <param name="Local" value="eloquent.html#many-to-many">
+                    <param name="ImageNumber" value="35">
+                    </OBJECT>
+                <LI> <OBJECT type="text/sitemap">
+                    <param name="Name" value="Polymorphic Relations">
+                    <param name="Local" value="eloquent.html#polymorphic-relations">
+                    <param name="ImageNumber" value="35">
+                    </OBJECT>
+            </UL>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Querying Relations">
+                <param name="Local" value="eloquent.html#querying-relations">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Eager Loading">
+                <param name="Local" value="eloquent.html#eager-loading">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Inserting Related Models">
+                <param name="Local" value="eloquent.html#inserting-related-models">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Touching Parent Timestamps">
+                <param name="Local" value="eloquent.html#touching-parent-timestamps">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Working With Pivot Tables">
+                <param name="Local" value="eloquent.html#working-with-pivot-tables">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Collections">
+                <param name="Local" value="eloquent.html#collections">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Accessors &amp; Mutators">
+                <param name="Local" value="eloquent.html#accessors-and-mutators">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Date Mutators">
+                <param name="Local" value="eloquent.html#date-mutators">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Model Events">
+                <param name="Local" value="eloquent.html#model-events">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Model Observers">
+                <param name="Local" value="eloquent.html#model-observers">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Converting To Arrays / JSON">
+                <param name="Local" value="eloquent.html#converting-to-arrays-or-json">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Schema Builder">
+            <param name="Local" value="schema.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Introduction">
+                <param name="Local" value="schema.html#introduction">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Creating & Dropping Tables">
+                <param name="Local" value="schema.html#creating-and-dropping-tables">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Adding Columns">
+                <param name="Local" value="schema.html#adding-columns">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Renaming Columns">
+                <param name="Local" value="schema.html#renaming-columns">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Dropping Columns">
+                <param name="Local" value="schema.html#dropping-columns">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Checking Existence">
+                <param name="Local" value="schema.html#checking-existence">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Adding Indexes">
+                <param name="Local" value="schema.html#adding-indexes">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Foreign Keys">
+                <param name="Local" value="schema.html#foreign-keys">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Dropping Indexes">
+                <param name="Local" value="schema.html#dropping-indexes">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Storage Engines">
+                <param name="Local" value="schema.html#storage-engines">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Migrations & Seeding">
+            <param name="Local" value="migrations.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Introduction">
+                <param name="Local" value="migrations.html#introduction">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Creating Migrations">
+                <param name="Local" value="migrations.html#creating-migrations">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Running Migrations">
+                <param name="Local" value="migrations.html#running-migrations">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Rolling Back Migrations">
+                <param name="Local" value="migrations.html#rolling-back-migrations">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Database Seeding">
+                <param name="Local" value="migrations.html#database-seeding">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
+        <LI> <OBJECT type="text/sitemap">
+            <param name="Name" value="Redis">
+            <param name="Local" value="redis.html">
+            <param name="ImageNumber" value="11">
+            </OBJECT>
+        <UL>
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Introduction">
+                <param name="Local" value="redis.html#introduction">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Configuration">
+                <param name="Local" value="redis.html#configuration">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Usage">
+                <param name="Local" value="redis.html#usage">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+
+            <LI> <OBJECT type="text/sitemap">
+                <param name="Name" value="Pipelining">
+                <param name="Local" value="redis.html#pipelining">
+                <param name="ImageNumber" value="35">
+                </OBJECT>
+        </UL>
 	</UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="Artisan CLI">
